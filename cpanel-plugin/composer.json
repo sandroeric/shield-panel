@@ -1,0 +1,12 @@
+{
+    "name": "shieldpanel/cpanel-plugin",
+    "description": "ShieldPanel cPanel plugin simulation control layer",
+    "require": {
+        "php-amqplib/php-amqplib": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShieldPanel\\": ""
+        }
+    }
+}
