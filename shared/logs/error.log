@@ -1,3 +1,8 @@
 [Mon May 25 20:00:01.000000 2026] [mpm_prefork:info] [pid 12] AH00163: Apache/2.4.58 (Unix) PHP/8.2.12 configured -- resuming normal operations
 [Mon May 25 20:00:01.000000 2026] [core:notice] [pid 12] AH00094: Command line: 'httpd -D FOREGROUND'
 [Mon May 25 20:05:12.123456 2026] [php:warn] [pid 15] [client 127.0.0.1:54321] PHP Warning:  Undefined array key "action" in /var/www/html/api/status.php on line 12
+[Tue May 26 00:12:56.000000 2026] [auth_digest:error] [pid 8234:tid 1234] [client 192.168.80.22:38421] AH01790: user admin: password mismatch for example.com
+[Tue May 26 00:12:58.000000 2026] [auth_digest:error] [pid 8234:tid 1234] [client 192.168.80.22:38421] AH01790: user admin: password mismatch for example.com
+[Tue May 26 00:13:00.000000 2026] [auth_digest:error] [pid 8234:tid 1234] [client 192.168.80.22:38421] AH01790: user admin: password mismatch for example.com
+[Tue May 26 00:13:02.000000 2026] [auth_digest:error] [pid 8234:tid 1234] [client 192.168.80.22:38421] AH01790: user admin: password mismatch for example.com
+[Tue May 26 00:13:04.000000 2026] [auth_digest:error] [pid 8234:tid 1234] [client 192.168.80.22:38421] AH01790: user admin: password mismatch for example.com
